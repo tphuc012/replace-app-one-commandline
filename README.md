@@ -1,8 +1,8 @@
-# react-native-rename [![NPM version](https://img.shields.io/npm/v/react-native-rename.svg?style=flat)](https://www.npmjs.com/package/react-native-rename) [![NPM monthly downloads](https://img.shields.io/npm/dm/react-native-rename.svg?style=flat)](https://npm-stat.com/charts.html?package=react-native-rename) [![NPM total downloads](https://img.shields.io/npm/dt/react-native-rename.svg?style=flat)](https://npm-stat.com/charts.html?package=react-native-rename) [![Paypal Donate](https://img.shields.io/badge/paypal-donate-green.svg?style=flat)](https://www.paypal.me/junedomingo)
+# replace-app-one-commandline [![NPM version](https://img.shields.io/npm/v/replace-app-one-commandline.svg?style=flat)](https://www.npmjs.com/package/replace-app-one-commandline) [![NPM monthly downloads](https://img.shields.io/npm/dm/replace-app-one-commandline.svg?style=flat)](https://npm-stat.com/charts.html?package=replace-app-one-commandline) [![NPM total downloads](https://img.shields.io/npm/dt/replace-app-one-commandline.svg?style=flat)](https://npm-stat.com/charts.html?package=replace-app-one-commandline) [![Paypal Donate](https://img.shields.io/badge/paypal-donate-green.svg?style=flat)](https://www.paypal.me/junedomingo)
 
 Rename react-native app with just one command
 
-![react-native-rename](https://cloud.githubusercontent.com/assets/5106887/24444940/cbcb0a58-149a-11e7-9714-2c7bf5254b0d.gif)
+![replace-app-one-commandline](https://cloud.githubusercontent.com/assets/5106887/24444940/cbcb0a58-149a-11e7-9714-2c7bf5254b0d.gif)
 
 > This package assumes that you created your react-native project using `react-native init`.
 
@@ -10,12 +10,12 @@ Rename react-native app with just one command
 
 ### Usage
 ```
-$ npx react-native-rename <newName>
+$ npx replace-app-one-commandline <newName>
 ```
 
 > With custom Bundle Identifier (Android only. For iOS, please use Xcode)
 ```
-$ npx react-native-rename <newName> -b <bundleIdentifier>
+$ npx replace-app-one-commandline <newName> -b <bundleIdentifier>
 ```
 
 ### Example
@@ -26,21 +26,21 @@ $ git checkout -b rename-app
 ```
 ##### Then, Rename your app
 ```
-$ npx react-native-rename "Travel App"
+$ npx replace-app-one-commandline "Travel App"
 ```
 > With custom Bundle Identifier
 ```
-$ npx react-native-rename "Travel App" -b com.junedomingo.travelapp
+$ npx replace-app-one-commandline "Travel App" -b com.junedomingo.travelapp
 ```
 
 ### Local installation
 With **Yarn**:
 ```
-$ yarn global add react-native-rename
+$ yarn global add replace-app-one-commandline
 ```
 With **npm**:
 ```
-$ npm install react-native-rename -g
+$ npm install replace-app-one-commandline -g
 ```
 
 ### Support
