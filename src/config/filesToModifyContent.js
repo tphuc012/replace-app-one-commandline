@@ -28,8 +28,6 @@ export function filesToModifyContent(currentAppName, newName) {
         'ios/build/info.plist',
         'ios/Podfile',
         'app.json',
-        'app/i10n/index.js',
-        'app/common/Configs.js',
       ],
     },
     {
@@ -51,6 +49,11 @@ export function filesToModifyContent(currentAppName, newName) {
       regex: `"displayName": "${currentAppName}"`,
       replacement: `"displayName": "${newName}"`,
       paths: ['app.json'],
+    },
+    {
+      regex: `"${currentAppName}"`,
+      replacement: `"${newName}"`,
+      paths: ['app/i10n/index.js', 'app/common/Configs.js'],
     },
   ];
 }
