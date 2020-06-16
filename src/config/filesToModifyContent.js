@@ -28,6 +28,8 @@ export function filesToModifyContent(currentAppName, newName) {
         'ios/build/info.plist',
         'ios/Podfile',
         'app.json',
+        'app/i10n/index.js',
+        'app/common/Configs.js',
       ],
     },
     {
