@@ -51,8 +51,8 @@ export function filesToModifyContent(currentAppName, newName) {
       paths: ['app.json'],
     },
     {
-      regex: `"${currentAppName}"`,
-      replacement: `"${newName}"`,
+      regex: `${currentAppName}`,
+      replacement: `${newName}`,
       paths: ['app/i10n/index.js', 'app/common/Configs.js'],
     },
   ];
